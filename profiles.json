@@ -1,0 +1,68 @@
+[
+  {
+    "contract": "Contact information",
+    "id": "1",
+    "longDescription": "A longer description about the person.",
+    "name": "First Last",
+    "pageLink": "A link to the person page",
+    "photo": "avatar.png",
+    "schedulerLink": "https://calendly.com/ionut-badea/30min",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
+    "skills": ["Skill 1", "Skill 10", "Skill 3"]
+  },
+  {
+    "contract": "Contact information",
+    "id": "2",
+    "longDescription": "A longer description about the person.",
+    "name": "First Last",
+    "pageLink": "A link to the person page",
+    "photo": "avatar.png",
+    "schedulerLink": "https://calendly.com/ionut-badea/30min",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
+    "skills": ["Skill 2", "Skill 5", "Skill 12"]
+  },
+  {
+    "contract": "Contact information",
+    "id": "3",
+    "longDescription": "A longer description about the person.",
+    "name": "First Last",
+    "pageLink": "A link to the person page",
+    "photo": "avatar.png",
+    "schedulerLink": "https://calendly.com/ionut-badea/30min",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
+    "skills": ["Skill 1", "Skill 11", "Skill 9"]
+  },
+  {
+    "contract": "Contact information",
+    "id": "4",
+    "longDescription": "A longer description about the person.",
+    "name": "First Last",
+    "pageLink": "A link to the person page",
+    "photo": "avatar.png",
+    "schedulerLink": "https://calendly.com/ionut-badea/30min",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
+    "skills": ["Skill 8", "Skill 2", "Skill 13"]
+  },
+  {
+    "contract": "Contact information",
+    "id": "5",
+    "longDescription": "A longer description about the person.",
+    "name": "First Last",
+    "pageLink": "A link to the person page",
+    "photo": "avatar.png",
+    "schedulerLink": "https://calendly.com/ionut-badea/30min",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
+    "skills": ["Skill 4", "Skill 8", "Skill 3"]
+  },
+  {
+    "contract": "Contact information",
+    "id": "6",
+    "longDescription": "A longer description about the person.",
+    "name": "First Last",
+    "pageLink": "A link to the person page",
+    "photo": "avatar.png",
+    "schedulerLink": "https://calendly.com/ionut-badea/30min",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
+    "skills": ["Skill 7", "Skill 2", "Skill 3"]
+  }
+]
