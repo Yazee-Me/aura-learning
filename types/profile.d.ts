@@ -1,11 +1,13 @@
 declare type Profile = {
-  contract: string;
+  description: string[];
+  email: string;
+  hourlyRate: string;
   id: string;
-  longDescription: string;
   name: string;
-  pageLink: string;
-  photo: string;
+  phone: string;
+  qualifications: string[];
+  reviews: string[];
   schedulerLink: string;
-  shortDescription: string;
   skills: string[];
+  socialLinks: string[];
 };

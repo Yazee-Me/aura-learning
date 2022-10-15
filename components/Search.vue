@@ -1,11 +1,24 @@
 <template>
   <div v-click-outside="hideSkills">
     <div id="search" class="form-control d-flex align-items-center">
-      <span class="mx-1 badge bg-primary p-2" v-for="skill of selectedSkills" :key="skill"
-        @click="removeSkill(skill)">{{skill}}
-      </span>
+      <div class="overflow d-flex">
+        <span class="mx-1 badge bg-primary p-2 d-flex align-items-center fs-6" v-for="skill of selectedSkills"
+          :key="skill">
+          {{skill}}
+          <button type="button" class="close-button light" @click="removeSkill(skill)">
+            <span class="material-symbols-outlined">
+              close
+            </span>
+          </button>
+        </span>
+      </div>
       <input type="text" title="skills" v-model="currentSkill" @keypress.enter="selectSkill(currentSkill)"
         @keyup.backspace="removeLastSkill" @click="showSkills = true">
+      <button type="button" class="close-button secondary" @click="removeAllSkills" v-if="selectedSkills.length > 0">
+        <span class="material-symbols-outlined">
+          close
+        </span>
+      </button>
       <button class="btn dropdown-toggle" type="button" @click="showSkills = !showSkills"></button>
     </div>
     <div id="search-dropdown" class="position-relative" v-if="showSkills">
@@ -37,9 +50,10 @@ const showSkills = ref(false)
 
 const selectSkill = (skillToBeAdded: string) => {
   filteredSkills.value.forEach(skill => {
-    if (skill.toLowerCase() === skillToBeAdded.toLowerCase() && selectedSkills.value.length < 5) {
+    if (skill.toLowerCase() === skillToBeAdded.toLowerCase() && selectedSkills.value.length < 3) {
       selectedSkills.value.push(skill)
       currentSkill.value = ''
+      showSkills.value = false
     }
   })
   if (selectedSkills.value.length > 0) {
@@ -58,6 +72,10 @@ const removeLastSkill = () => {
     selectedSkills.value.length > 0 ? emit('search', selectedSkills.value) : emit('show-profiles', false)
   }
 }
+const removeAllSkills = () => {
+  selectedSkills.value = []
+  emit('show-profiles', false)
+}
 const hideSkills = () => {
   showSkills.value = false
 }
@@ -69,9 +87,18 @@ const hideSkills = () => {
   cursor: text;
 }
 
+.overflow {
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 input {
   border: 0;
   flex-grow: 1;
+  min-width: 200px;
 
   &:focus-visible {
     outline: none;
@@ -85,5 +112,21 @@ input {
 li:hover {
   color: white;
   background-color: #0d6efd;
+}
+
+.close-button {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+
+  &.light {
+    color: white;
+  }
+
+  &.secondary {
+    color: #212529;
+  }
 }
 </style>
