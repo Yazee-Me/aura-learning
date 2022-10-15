@@ -1,68 +1,101 @@
 [
   {
-    "contract": "Contact information",
+    "description": [
+      "With a Master's in Film scoring, a double degree in Piano performance and Classical Composition, and work experience in some of Hollywood's most prestigious film music studios, Aaron's music teaching lies at the intersection of craft excellence and modern music production. A synthesis of voice-leading, counterpoint, orchestration, midi orchestration, and digital music production make Aaron the perfect teacher for learning skills within a broader context that helps students apply skills from all eras into music making for today.",
+      "Aaron is Spanish-American composer and pianist trained both in Spain and the United States. His music spans all genres, from chamber music to full orchestra and film music, earning him prestigious awards such as first prize for the Sinta Quartet National Composition Competition and the Society for Chamber Music in Rochester National Composition Competition. His music has been played across the world in the United States, Spain, France, Italy, China, and Singapur, his most recent commission being for the Royal Philharmonic Orchestra of Galicia."
+    ],
+    "email": "someone@test.com",
+    "hourlyRate": "85",
     "id": "1",
-    "longDescription": "A longer description about the person.",
-    "name": "First Last",
-    "pageLink": "A link to the person page",
-    "photo": "avatar.png",
+    "name": "Aaron Siebert",
+    "phone": "1234567890",
+    "qualifications": [
+      "Master's in Film and Video-Game Scoring, Eastman School of Music",
+      "B.M. Music Composition and Piano Performance, Nazareth College",
+      "8 years of teaching experience at American Universities"
+    ],
+    "reviews": [
+      "Aaron's helped me a great deal on my quest to become a good songwriter. He's very knowledgeable and can help with anything from how to structure a song to how to use chords to how to bring out the best in a song I've been working on. He gives lessons and take-home assignments. At the same time, he's patient and friendly, and his sessions are a lot of fun. I feel fortunate to have found him. - Todd, 25 lessons with Aaron",
+      "I was hoping to find tutors for music production and Spanish. I did not think I would find one tutor who could do both well, but I was wrong. Aaron is an excellent tutor in both subject, and much more. He is quick to pick up on what I need help with and adapts lessons on the fly to meet my needs. He's also very easy to talk to! - Victoria, 12 lessons with Aaron",
+      "Very patient. Learned a lot. Highly skilled. Will use again in the future no doubt. Have zero musical background but Aaron brought themes and topics down to my level. - James, 1 lesson with Aaron"
+    ],
     "schedulerLink": "https://calendly.com/ionut-badea/30min",
-    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
-    "skills": ["Skill 1", "Skill 10", "Skill 3"]
+    "skills": [
+      "Concert composition",
+      "Theory: counterpoint, voice-leading, general theory",
+      "Orchestration",
+      "Film Scoring",
+      "Music Production"
+    ],
+    "socialLinks": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://www.twitter.com/",
+      "https://www.linkedin.com/",
+      "https://www.youtube.com/"
+    ]
   },
   {
-    "contract": "Contact information",
+    "description": [
+      "A world-renowned composer, commissioned by some of the most prestigious orchestras around the world, Octavio's mastery of the craft goes beyond books and beyond schools. At the intersection of voice-leading, counterpoint, orchestration, and structure lies the power to transform skills into knowledge for masterful composition.",
+      "Octavio Vazquez's music has been performed throughout the US, Europe, and Asia, in venues such as Carnegie Hall, the National Auditorium of Spain, Cologne's Philharmonie, or the Big Hall of the St. Petersburg Conservatory. He has also written for film and collaborated with world-music artists as an arranger, orchestrator and producer, most notably with Grammy Award winner Cristina Pato. His orchestration of 'Negro Caravel' for Ms Pato's CD 'Muller' was nominated for the 2011 Spanish Music Academy Awards. A winner of numerous national and international prizes, recent recognition includes I-Park Foundation, MacDowell, and VCCA Fellowships. "
+    ],
+    "email": "someone@test.com",
+    "hourlyRate": "125",
     "id": "2",
-    "longDescription": "A longer description about the person.",
-    "name": "First Last",
-    "pageLink": "A link to the person page",
-    "photo": "avatar.png",
+    "name": "Octavio Vazquez",
+    "phone": "1234567890",
+    "qualifications": [],
+    "reviews": [
+      "I only wish we could have met for longer each week. Working and learning from Dr. Vazquez has been one of the greatest experiences of my life.",
+      "Working with Dr. Vazquez has been an absolute privilege. My knowledge and competence has grown exponentially with his guidance, and my perspective on music as a whole and its significance has also expanded from studying under him. Very thankful to know and work with him and would highly recommend it to any other musician.",
+      "Best teacher I have ever had. Thanks for a great year.",
+      "Dr. Vazquez is one of the greatest teachers I have ever had. He takes the time to explain things thoroughly."
+    ],
     "schedulerLink": "https://calendly.com/ionut-badea/30min",
-    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
-    "skills": ["Skill 2", "Skill 5", "Skill 12"]
+    "skills": ["Music Composition"],
+    "socialLinks": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://www.twitter.com/",
+      "https://www.linkedin.com/",
+      "https://www.youtube.com/"
+    ]
   },
   {
-    "contract": "Contact information",
+    "description": [
+      "Born and raised in Beijing China, Wen loves traditional Chinese culture and is willing to help whoever wants to speak Mandarin at any level. As a learner and speaker of 8 languages herself, Wen knows how to guide a student to acquire a language most efficiently. Through a literature major, she is also acquainted with a wide range of writings in linguistics and philosophy and is open to discussions of all kinds!",
+      "Wen's lessons cover: HSK test-prep, conversational and listening practice,  school work and exams, composition, classical Chinese text reading and analysis, etc. Wen is known for her enthusiasm to meet each student’s unique needs so feel free to reach out and let her know your expectations!"
+    ],
+    "email": "someone@test.com",
+    "hourlyRate": "20",
     "id": "3",
-    "longDescription": "A longer description about the person.",
-    "name": "First Last",
-    "pageLink": "A link to the person page",
-    "photo": "avatar.png",
+    "name": "Wenyue Zheng",
+    "phone": "1234567890",
+    "qualifications": [
+      "Native Chinese speaker, speaks also English and Japanese",
+      "Currently learning Spanish, French, Russian, German and Ancient Greek",
+      "Bachelor's degree in British and American Literature from University of International Relations (Beijing, China)",
+      "Certification of Teaching Chinese as a Foreign Language",
+      "Attended the 2022 International Chinese Education Training Workshop held by Confucius Institute at Peking University",
+      "6 months of teaching Chinese to foreign students in China in person as a volunteer",
+      "3 months of tutoring Chinese online (successfully helped students becoming able to hold simple conversations and to write in Chinese from zero)",
+      "Completed a 2-month academic program at UCB in Neuroscience and Animal Behavior with high gpa",
+      "Worked as an interpreter and PR assistant in a music agency in Beijing, China"
+    ],
+    "reviews": [
+      "Wen is absolutely fantastic! Her dedication to tailoring the learning to your needs and interests is excellent - this is no standardised process but a genuinely well-thought out, researched and resourced bespoke journey. On the human side, Wen is warm, funny, patient and dedicated. Also her knowledge of linguistics and grammar are mind blowing. Book her for sure but leave some room for my lesson please. - Nick",
+      "I love my lessons with Wen. She tailors my lessons to my interest and at the moment, we are covering the different festivals in China which I love. - Terry",
+      "What a joy to learn with Wen! Just had a perfect trial and highly recommend studying with her. She explains everything clearly and makes the learning process so engaging. - Chris"
+    ],
     "schedulerLink": "https://calendly.com/ionut-badea/30min",
-    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
-    "skills": ["Skill 1", "Skill 11", "Skill 9"]
-  },
-  {
-    "contract": "Contact information",
-    "id": "4",
-    "longDescription": "A longer description about the person.",
-    "name": "First Last",
-    "pageLink": "A link to the person page",
-    "photo": "avatar.png",
-    "schedulerLink": "https://calendly.com/ionut-badea/30min",
-    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
-    "skills": ["Skill 8", "Skill 2", "Skill 13"]
-  },
-  {
-    "contract": "Contact information",
-    "id": "5",
-    "longDescription": "A longer description about the person.",
-    "name": "First Last",
-    "pageLink": "A link to the person page",
-    "photo": "avatar.png",
-    "schedulerLink": "https://calendly.com/ionut-badea/30min",
-    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
-    "skills": ["Skill 4", "Skill 8", "Skill 3"]
-  },
-  {
-    "contract": "Contact information",
-    "id": "6",
-    "longDescription": "A longer description about the person.",
-    "name": "First Last",
-    "pageLink": "A link to the person page",
-    "photo": "avatar.png",
-    "schedulerLink": "https://calendly.com/ionut-badea/30min",
-    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda doloremque eum hic quae explicabo dolorem, ab molestiae ipsum deleniti nostrum velit eligendi quam dolore iure sint dolores officia adipisci? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fugit libero, suscipit minima praesentium esse eius porro, voluptas non alias accusamus quam quaerat eligendi! Voluptatum iste fuga ea molestiae quia!",
-    "skills": ["Skill 7", "Skill 2", "Skill 3"]
+    "skills": ["Speaking", "Accent Reduction", "HSK preparation"],
+    "socialLinks": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://www.twitter.com/",
+      "https://www.linkedin.com/",
+      "https://www.youtube.com/"
+    ]
   }
 ]
