@@ -16,6 +16,19 @@ export default defineNuxtConfig({
           rel: "icon",
           type: "image/x-icon",
         },
+        {
+          href: "https://fonts.googleapis.com",
+          rel: "preconnect",
+        },
+        {
+          crossorigin: true,
+          href: "https://fonts.gstatic.com",
+          rel: "preconnect",
+        },
+        {
+          href: "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap",
+          rel: "stylesheet",
+        },
       ],
       meta: [
         { charset: "utf-8" },
