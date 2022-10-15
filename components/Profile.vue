@@ -1,8 +1,8 @@
 <template>
-  <div class="col-4">
+  <div class="col-12 col-md-6 col-lg-4">
     <NuxtLink :to="redirectTo" class="text-dark">
       <div class="card mb-4 p-3">
-        <NuxtImg class="card-img align-self-center photo" :src="`/images/${photo}`" :alt="name" />
+        <img class="card-img align-self-center photo" :src="`/images/${photo}`" :alt="name" />
         <div class="card-body">
           <h3 class="card-title text-center">{{name}}</h3>
           <p>{{description}}</p>
@@ -13,8 +13,6 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps } from "vue";
-
 const { id, name, photo, shortDescription } = defineProps<{
   id: string;
   name: string;
