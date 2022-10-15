@@ -47,9 +47,6 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/scss/main.scss"],
-  modules: ["@nuxt/image-edge"],
-  router: {
-    base: "/specialists/",
-  },
   ssr: false,
+  target: "static",
 });

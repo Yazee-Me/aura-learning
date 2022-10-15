@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <div class="d-flex flex-column align-items-center">
-      <NuxtImg class="photo" src="/images/avatar.png" :alt="profile.name" />
+      <img class="photo" src="/images/avatar.png" :alt="profile.name" />
       <h3 class="mt-5">{{profile.name}}</h3>
     </div>
     <div class="row">
