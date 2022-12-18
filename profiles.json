@@ -33,7 +33,8 @@
       "https://www.twitter.com/",
       "https://www.linkedin.com/",
       "https://www.youtube.com/"
-    ]
+    ],
+    "title": "Composer"
   },
   {
     "description": [
@@ -60,7 +61,8 @@
       "https://www.twitter.com/",
       "https://www.linkedin.com/",
       "https://www.youtube.com/"
-    ]
+    ],
+    "title": "Composer"
   },
   {
     "description": [
@@ -96,6 +98,7 @@
       "https://www.twitter.com/",
       "https://www.linkedin.com/",
       "https://www.youtube.com/"
-    ]
+    ],
+    "title": "Teacher"
   }
 ]

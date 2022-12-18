@@ -1,37 +1,43 @@
 <template>
   <div class="container mt-5 d-flex flex-column">
-    <div class="d-flex flex-column align-items-center align-self-center card py-4 px-5">
+    <section class="d-flex flex-column align-items-center align-self-center card py-4 px-5">
       <div class="photo">
-        <img class="border-secondary" :src="`/images/${name}/1.jpg`" :alt="profile.name" />
+        <img class="border-secondary" :src="`/images/${imagePath}/1.jpg`" :alt="name" />
       </div>
-      <h3 class="mt-5">{{profile.name}}</h3>
-    </div>
-    <div class="row gap-5 d-flex justify-content-center my-5">
+      <h1 class="mt-5">{{ name }}</h1>
+      <h2>
+        {{ title }}
+      </h2>
+      <h3>
+        Hourly rate: ${{ hourlyRate }}
+      </h3>
+    </section>
+    <section class="row gap-5 d-flex justify-content-center my-5 mx-0">
       <div class="col-12 col-lg-5 card p-5">
-        <p v-for="description of profile.description" :key="description">{{description}}</p>
+        <h3>About {{ name }}</h3>
+        <p v-for="text of description" :key="text">{{ text }}</p>
         <b>Skills:</b>
         <ul>
-          <li v-for="skill of profile.skills">
-            {{skill}}
+          <li v-for="skill of skills">
+            {{ skill }}
           </li>
         </ul>
-        <div v-if="profile.qualifications.length > 0">
+        <div v-if="hasQualifications">
           <b>Qualifications:</b>
           <ul>
-            <li v-for="qualification of profile.qualifications">
-              {{qualification}}
+            <li v-for="qualification of qualifications">
+              {{ qualification }}
             </li>
           </ul>
         </div>
-        <b>
-          Hourly rate: ${{profile.hourlyRate}}
-        </b>
       </div>
       <div class="col-12 col-lg-5 card p-5">
-        <iframe :src="profile.schedulerLink" frameborder="0" width="100%" height="780px"></iframe>
+        <h3>Book your next lesson with {{ name }}</h3>
+        <iframe :src="schedulerLink" frameborder="0" width="100%" height="780px"></iframe>
       </div>
-    </div>
-    <div class="row d-flex flex-row align-items-center justify-content-center">
+    </section>
+    <section class="row d-flex flex-row align-items-center justify-content-center mx-0">
+      <h3 class="col-12 text-center py-4">STUDENTS' TESTIMONIALS</h3>
       <div class="col-1 d-flex justify-content-end">
         <button class="btn d-flex justify-content-center" type="button" data-bs-target="#reviews" data-bs-slide="prev">
           <span class="material-symbols-outlined">
@@ -39,12 +45,12 @@
           </span>
         </button>
       </div>
-      <div class="col-10 py-5">
+      <div class="col-8 col-sm-10 py-4">
         <div id="reviews" class="carousel slide">
           <div class="carousel-inner">
-            <div class="carousel-item" :class="{'active': currentReview === profile.reviews.indexOf(review)}"
-              v-for="review of profile.reviews" :key="review">
-              <p class="m-0">{{review}}</p>
+            <div class="carousel-item" :class="{ 'active': initReview === currentReview(review) }"
+              v-for="review of reviews" :key="review">
+              <p class="m-0">{{ review }}</p>
             </div>
           </div>
         </div>
@@ -56,7 +62,7 @@
           </span>
         </button>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -67,8 +73,18 @@ const route = useRoute();
 const id = route.params.id as string;
 
 const profile = computed(() => profiles.find((p) => p.id === id));
-const name = computed(() => profile.value.name.replace(/\s/g, '_').toLowerCase());
-const currentReview = ref(0);
+const imagePath = computed(() => profile?.value?.name.replace(/\s/g, '_').toLowerCase());
+const name = computed(() => profile?.value?.name);
+const title = computed(() => profile?.value?.title);
+const hourlyRate = computed(() => profile?.value?.hourlyRate);
+const description = computed(() => profile?.value?.description);
+const skills = computed(() => profile?.value?.skills);
+const qualifications = computed(() => profile?.value?.qualifications);
+const hasQualifications = computed(() => qualifications.value && qualifications.value.length > 0);
+const schedulerLink = computed(() => profile?.value?.schedulerLink);
+const reviews = computed(() => profile?.value?.reviews);
+const currentReview = (index: string) => reviews.value?.indexOf(index);
+const initReview = ref(0);
 </script>
 
 <style lang="scss" scoped>

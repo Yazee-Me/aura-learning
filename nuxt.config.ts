@@ -21,7 +21,7 @@ export default defineNuxtConfig({
           rel: "preconnect",
         },
         {
-          crossorigin: true,
+          crossorigin: "anonymous",
           href: "https://fonts.gstatic.com",
           rel: "preconnect",
         },
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
           name: "viewport",
         },
         {
-          content: "Specialists",
+          content: "Aura Learning",
           hid: "description",
           name: "description",
         },
@@ -55,11 +55,20 @@ export default defineNuxtConfig({
             "sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz",
           src: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js",
         },
+        {
+          children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','${process.env.GOOGLE_TAG_MANAGER_ID}');`,
+          crossorigin: "anonymous",
+          hid: "gtm",
+          type: "text/javascript",
+        },
       ],
-      title: "Specialists",
+      title: "Aura Learning",
     },
   },
   css: ["~/assets/scss/main.scss"],
   ssr: false,
-  target: "static",
 });

@@ -4,7 +4,7 @@
       <div class="overflow d-flex">
         <span class="mx-1 badge bg-primary p-2 d-flex align-items-center fs-6" v-for="skill of selectedSkills"
           :key="skill">
-          {{skill}}
+          {{ skill }}
           <button type="button" class="close-button light" @click="removeSkill(skill)">
             <span class="material-symbols-outlined">
               close
@@ -23,7 +23,7 @@
     </div>
     <div id="search-dropdown" class="position-relative" v-if="showSkills">
       <ul class="list-group position-absolute w-100">
-        <li v-for="skill of filteredSkills" class="list-group-item" @click="selectSkill(skill)">{{skill}}</li>
+        <li v-for="skill of filteredSkills" class="list-group-item" @click="selectSkill(skill)">{{ skill }}</li>
       </ul>
     </div>
   </div>
@@ -89,6 +89,7 @@ const hideSkills = () => {
 
 .overflow {
   overflow-x: scroll;
+  scrollbar-width: none;
 
   &::-webkit-scrollbar {
     display: none;

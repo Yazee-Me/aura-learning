@@ -3,8 +3,7 @@
     "bootstrap": "^5.2.1"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.11",
-    "push-dir": "^0.4.1",
+    "nuxt": "^3.0.0",
     "sass": "^1.55.0",
     "sass-loader": "^13.0.2"
   },
